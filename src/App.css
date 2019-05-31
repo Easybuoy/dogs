@@ -1,11 +1,23 @@
 .App {
   text-align: center;
-  width:30%;
-  height:500px;
-  margin:0 auto;
-  position:absolute;
-  left:50%;
-  top:50%;
-  margin-left:-250px;
-  margin-top:-250px;
+  width: 30%;
+  height: 500px;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -250px;
+  margin-top: -250px;
+  font-family: "Maven Pro", sans-serif;
+}
+
+.preloader {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -250px;
+  margin-top: -250px;
 }
