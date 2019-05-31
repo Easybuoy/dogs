@@ -9,14 +9,14 @@ export default class App extends Component {
     super();
     this.state = {
       dog: {},
-      breeds: [],
-      url: "https://dog.ceo/api/breed/basenji/images/random"
+      breeds: {},
+      url: "https://dog.ceo/api/breeds/image/random"
     };
   }
 
   componentDidMount() {
     this.getBreeds("https://dog.ceo/api/breeds/list/all");
-    this.getDogs("https://dog.ceo/api/breeds/image/random");
+    this.getDogs(this.state.url);
   }
 
   getBreeds = URL => {
@@ -57,7 +57,6 @@ export default class App extends Component {
 
   render() {
     if (Object.keys(this.state.breeds).length > 0) {
-      console.log("chei");
       return (
         <div className="App">
           <h1>Dogs</h1>
