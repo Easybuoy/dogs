@@ -27,7 +27,6 @@
   transition: all 0.5s ease-in-out;
   background-color: #f26419;
   color: white;
-  /* font-family: "Maven Pro", sans-serif; */
 }
 
 .button:hover {
