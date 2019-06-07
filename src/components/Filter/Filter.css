@@ -1,0 +1,14 @@
+.filter {
+  margin: 2rem 0;
+}
+
+.select {
+  font-size: 1rem;
+  outline: none;
+  cursor: pointer;
+  font-family: "Maven Pro", sans-serif;
+}
+
+.select:focus {
+  border: 1px solid #f26419;
+}
